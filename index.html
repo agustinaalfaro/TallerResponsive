@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WikiGatos - Todo sobre gatos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">WikiGatos</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Comportamiento</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Cuidado</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Galería</a></li>
+                </ul>
+                <!-- Barra de búsqueda -->
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Buscar gatos" aria-label="Search">
+                    <button class="btn btn-outline-light" type="submit">Buscar</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    
+
+    <!-- Carrusel -->
+    <div class="container my-4">
+        <h2 class="text-center">Todo sobre gatos</h2>
+        <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <h4 class="text-center highlight">"Los gatos tienen todo; admiración, sueño infinito y compañía." – Rod McKuen</h4>
+                </div>
+                <div class="carousel-item">
+                    <h4 class="text-center highlight">"Un gato es un puzzle para el que no hay solución." – Hazel Nicholson</h4>
+                </div>
+                <div class="carousel-item">
+                    <h4 class="text-center highlight">"Los gatos saben exactamente cómo nos sentimos. No les importa, pero lo saben." – Anonymous</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Layout principal -->
+    <div class="container">
+        <div class="row">
+            <!-- Barra lateral -->
+            <aside class="col-lg-3 col-md-4">
+                <ul class="list-group">
+                    <li class="list-group-item">Razas de Gatos</li>
+                    <li class="list-group-item">Gatos y su historia</li>
+                    <li class="list-group-item">Consejos de cuidado</li>
+                    <li class="list-group-item">Galería de gatos</li>
+                </ul>
+            </aside>
+
+            <!-- Contenido principal -->
+            <section class="col-lg-9 col-md-8 content-section">
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <img src="https://www.catbreedslist.com/cat-wallpapers/siamese-kitten-cute-lie-paws-1920x1080.jpg" alt="Gato 1">
+                        <p>Los gatos son animales elegantes y ágiles, capaces de saltar grandes distancias y adaptarse a diversos ambientes.</p>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <img src="https://www.catster.com/wp-content/uploads/2023/11/three-siamese-kittens-on-the-floor_ADA_photo_Shutterstock.jpg" alt="Gato 2">
+                        <p>Son compañeros fieles y cariñosos, famosos por su independencia y actitud tranquila.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <img src="https://i.pinimg.com/736x/82/e4/ce/82e4ced9fbf5dbf85d04291d6a1009b9.jpg" alt="Gato 3">
+                        <p>Los gatos domésticos descienden de los gatos salvajes africanos, domesticados hace miles de años.</p>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <img src="https://i.pinimg.com/736x/1f/ce/15/1fce15d59a90fd4a41d30309bfb312e3.jpg" alt="Gato 4">
+                        <p>Se adaptan perfectamente a la vida urbana, ofreciendo compañía en hogares de todo el mundo.</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
